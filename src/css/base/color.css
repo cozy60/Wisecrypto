@@ -1,0 +1,16 @@
+:root {
+  /* theme color */
+  --primary: #5ede99;
+  --secondary: #f288f4;
+  --success: #00cbb3;
+  --warning: #f2bd19;
+  --danger: #eb5757;
+  --dark: #04150c;
+  --light: #f7f7f7;
+
+  /* gray scale */
+  --black: #071d2c;
+  --gray: #5d5c5d;
+  --gray2: #bebebe;
+  --white: #ffffff;
+}
