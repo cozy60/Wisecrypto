@@ -1,0 +1,9 @@
+.login-header__logo {
+  width: 182px;
+  height: 64px;
+}
+
+.login-header__logo img {
+  display: block;
+  width: 100%;
+}

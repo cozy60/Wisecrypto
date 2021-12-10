@@ -1,5 +1,7 @@
-@import "./base/normalize.css";
-@import "./base/reset.css";
+@import "./base/index.css";
 
-@import "./base/gird.css";
-@import "./base/color.css";
+@import "./modules/index.css";
+
+@import "./pages/index.css";
+
+@import "./util/flex.css";

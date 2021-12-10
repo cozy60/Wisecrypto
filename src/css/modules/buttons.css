@@ -1,0 +1,14 @@
+.btn {
+  border-radius: 4px;
+  padding: 11px 0;
+}
+
+.btn-primary {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.btn-100 {
+  width: 100%;
+  font-size: 12px;
+}
