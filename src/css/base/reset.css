@@ -21,7 +21,7 @@ h1 {
 
 a {
   color: inherit;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 button,
@@ -53,4 +53,9 @@ ul,
 ol {
   padding-left: 0;
   list-style: none;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
 }
