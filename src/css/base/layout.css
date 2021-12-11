@@ -2,9 +2,3 @@ html,
 body {
   background-color: var(--light);
 }
-
-.wrap {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
