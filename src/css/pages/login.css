@@ -1,9 +1,45 @@
+.wrap {
+  display: grid;
+  justify-items: center;
+  grid-template-areas: "header" "form";
+  grid-gap: 48px;
+}
+
+.login-header {
+  grid-area: header;
+  text-align: center;
+}
+
 .login-header__logo {
   width: 182px;
   height: 64px;
+  margin: 48px auto 72px auto;
 }
 
 .login-header__logo img {
   display: block;
   width: 100%;
+}
+
+.login-header__desc {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-form {
+  display: grid;
+  grid-area: form;
+  gap: 32px;
+}
+
+.login-form__fieldset {
+  display: grid;
+  gap: 16px;
+}
+
+.login-form__footer {
+  display: grid;
+  gap: 24px;
+  text-align: center;
 }
